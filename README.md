@@ -3,7 +3,6 @@
 
 <br>
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=yoonbitnara&theme=gitdimmed)](https://github.com/ryo-ma/github-profile-trophy)
 ```java
 public class IntroduceMyself {
 
