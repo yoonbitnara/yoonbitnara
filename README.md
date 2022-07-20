@@ -1,6 +1,8 @@
 [![Tech Blog Badge](http://img.shields.io/badge/-Tech%20blog-black?style=flat-square&logo=github&link=https://yoonbitnara.github.io/)](https://yoonbitnara.github.io/)  [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:yoonbitnara@gmail.com)](mailto:yoonbitnara@gmail.com)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yoonbitnara)](https://github.com/yoonbitnara/github-readme-stats)
+
 <br>
 
 ```java
