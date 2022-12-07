@@ -43,7 +43,7 @@ public class IntroduceMyself {
 
 #### Version Control :floppy_disk:
 
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![SVN](https://img.shields.io/badge/SVN-#809CC9.svg?&style=for-the-badge&logo=로고명&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Subversion](https://img.shields.io/badge/Subversion-#809CC9.svg?&style=for-the-badge&logo=Subversion&logoColor=white)
 <br>
 
 #### Hosting :satellite:
