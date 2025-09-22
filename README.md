@@ -2,7 +2,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
-## 🔥 a.k.a. 핏불테리어<br>
+## 🔥 a.k.a. Pitbull Terrier<br>
 한번 물면 절대 놓지 않는 집요한 놈.<br>
 단순히 동작만 하는 코드는 내 철학에 맞지 않음. <br>
 코드가 가진 본질적인 아름다움을 탐구하며, 더 나은 코드를 향한 끝없는 열정으로 살아감.<br>
