@@ -2,23 +2,12 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
-```java
-public class IntroduceMyself {
-
-	public static void main(String[] args) {
-		
-		String name = "YoonBitnara";
-		
-		int dateOfBirth = 920110;
-		
-		String hobby = "watching a movie";
-		
-		System.out.println("이름 : " + name);
-		System.out.println("생년월일 : " + dateOfBirth);
-		System.out.println("취미 : " + hobby);
-	}
-}
-```
+## 🔥 a.k.a. 핏불테리어<br>
+한번 물면 절대 놓지 않는 집요한 개발자.<br>
+단순히 동작만 하는 코드는 내 철학에 맞지 않음. <br>
+코드가 가진 본질적인 아름다움을 탐구하며, 더 나은 코드를 향한 끝없는 열정으로 살아감.<br>
+읽기 쉽고, 유지보수가 용이하며, 논리적으로 완벽한 코드를 만드는 게 내 목표.<br>
+특히, 에러 발견하는 순간 내 진정한 사냥이 시작됨. 해결의 실마리 찾을 때까지 절대 포기 안 하고 끈질기게 물고 늘어짐.
 
 
 <br>
