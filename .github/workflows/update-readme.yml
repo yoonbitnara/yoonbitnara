@@ -1,20 +1,24 @@
 name: Update README with Latest Blog Posts (Python)
 
 on:
-  workflow_dispatch:         # 수동 실행 허용
+  workflow_dispatch:
   schedule:
-    - cron: "0 */6 * * *"    # 6시간마다 (UTC 기준)
+    - cron: "0 */6 * * *"
 
 permissions:
-  contents: write            # README 자동 커밋/푸시 권한
+  contents: write
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Show README(before)
+        run: |
+          echo "===== README (before) ====="
+          sed -n '1,120p' README.md || true
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -24,11 +28,16 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install feedparser==6.0.11
 
       - name: Update README from RSS
         run: |
           python scripts/update_readme.py "https://yoonbitnara.github.io/feed.xml" 5 "yyyy-mm-dd"
+
+      - name: Show git diff
+        run: |
+          echo "===== git diff ====="
+          git diff || true
 
       - name: Commit & Push if changed
         run: |
@@ -42,3 +51,7 @@ jobs:
             echo "No changes."
           fi
 
+      - name: Show README(after)
+        run: |
+          echo "===== README (after) ====="
+          sed -n '1,120p' README.md || true
