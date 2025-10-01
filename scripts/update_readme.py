@@ -39,13 +39,19 @@ def build_block(entries, count, date_format):
         title = " ".join(title.splitlines()).strip()
         link = getattr(ent, "link", "") or getattr(ent, "id", "") or ""
         date_str = fmt_date(ent, date_format) or "----"
+
         if link:
             line = f"[[{date_str}] {title}]({link})"
         else:
             line = f"[{date_str}] {title}"
-        lines.append(line)
+
+        # 줄 끝에 공백 2개 추가 → GitHub에서 강제 줄바꿈
+        lines.append(line + "  ")
+
     if not lines:
         lines.append("[----] 최근 글을 찾지 못했습니다.")
+
+    # 줄바꿈(\n)으로 연결
     return "\n".join(lines)
 
 def replace_between_markers(text, new_block):
