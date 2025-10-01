@@ -2,11 +2,6 @@
 
 ### ✍️ 최근 블로그 글
 <!-- BLOG-POST-LIST:START -->
-[2025-09-30] 1년차와 10년차의 차이는 9년이 아니다
-[2025-09-29] 코드 커버리지와 품질 관리
-[2025-09-29] 데이터베이스 인덱스, 이제 제대로 써보자
-[2025-09-29] 도박 vs 투자
-[2025-09-24] 레거시 코드와의 공존법
 <!-- BLOG-POST-LIST:END -->
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:ff0000&height=200&section=header&text=PitbullTerrier%20Dev&fontSize=45&fontColor=ffffff&animation=twinkling)
