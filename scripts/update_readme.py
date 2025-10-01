@@ -87,5 +87,5 @@ def replace_between_markers(text, new_block):
         print("README에 마커가 없습니다. START/END 주석을 확인하세요.")
         sys.exit(1)
     replacement = START_MARKER + "\n" + new_block + "\n" + END_MARKER
-    return pattern.sub(rep
+    return pattern.sub(replacement, text)
 
