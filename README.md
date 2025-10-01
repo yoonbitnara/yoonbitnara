@@ -1,5 +1,9 @@
 [![Tech Blog Badge](http://img.shields.io/badge/-Tech%20blog-black?style=flat-square&logo=github&link=https://yoonbitnara.github.io/)](https://yoonbitnara.github.io/)  [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:ybnr92@gmail.com)](mailto:ybnr92@gmail.com)
 
+### ✍️ 최근 블로그 글
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:ff0000&height=200&section=header&text=PitbullTerrier%20Dev&fontSize=45&fontColor=ffffff&animation=twinkling)
 > Once I bite, I never let go.<a href="https://github.com/OWNER"><img src="https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/starbadge.gif" width="40" height="40"></a>
 ---
