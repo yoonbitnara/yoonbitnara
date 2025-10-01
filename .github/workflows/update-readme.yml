@@ -1,9 +1,12 @@
 name: Update README with Latest Blog Posts
 
 on:
-  workflow_dispatch:  # 수동 실행 가능
+  workflow_dispatch:
   schedule:
-    - cron: "0 */6 * * *"  # 6시간마다 실행 (UTC)
+    - cron: "0 */6 * * *"  # 6시간마다(UTC)
+
+permissions:
+  contents: write  # README 자동 커밋/푸시 권한
 
 jobs:
   update-readme:
@@ -18,7 +21,7 @@ jobs:
           node-version: "20"
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install --no-fund --no-audit
 
       - name: Update README
         run: |
@@ -35,4 +38,3 @@ jobs:
           else
             echo "No changes."
           fi
-
