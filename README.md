@@ -1,6 +1,6 @@
 [![Tech Blog Badge](http://img.shields.io/badge/-Tech%20blog-black?style=flat-square&logo=github&link=https://yoonbitnara.github.io/)](https://yoonbitnara.github.io/)  [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:ybnr92@gmail.com)](mailto:ybnr92@gmail.com)
 
-### ✍️ 최근 블로그 글
+### ✍️ Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
 [[2025-09-30] 1년차와 10년차의 차이는 9년이 아니다](https://yoonbitnara.github.io/til/2025/10/01/one-year-vs-ten-years-experience/)  
 [[2025-09-29] 코드 커버리지와 품질 관리](https://yoonbitnara.github.io/code-quality/2025/09/30/code-coverage-quality-management/)  
