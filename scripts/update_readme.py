@@ -1,20 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-README의 <!-- BLOG-POST-LIST:START --> ... <!-- BLOG-POST-LIST:END --> 구간을
-RSS 최신 글 목록으로 교체한다.
-
-실행 예:
-  python scripts/update_readme.py "https://yoonbitnara.github.io/feed.xml" 5 "yyyy-mm-dd"
-
-출력 포맷(클릭 이동):
-  [[yyyy-mm-dd] 제목](링크)
-  - 화면엔 [yyyy-mm-dd] 제목 으로 보이고, 줄 전체 클릭 시 해당 글로 이동
-
-주의:
-  - README에 마커(START/END)가 반드시 존재해야 함
-  - feedparser가 제공하는 published/updated 날짜가 없으면 [----]로 표시
-"""
-
 import sys
 import os
 import re
@@ -36,10 +20,6 @@ def parse_args():
     return rss_url, count, date_format
 
 def fmt_date(entry, date_format):
-    """
-    feedparser entry에서 날짜 추출 → 문자열 포맷으로 반환.
-    우선순위: published_parsed → updated_parsed
-    """
     tm = None
     if hasattr(entry, "published_parsed") and entry.published_parsed:
         tm = entry.published_parsed
@@ -50,42 +30,68 @@ def fmt_date(entry, date_format):
     dt = datetime(*tm[:6])
     if date_format == "yyyy.mm.dd":
         return dt.strftime("%Y.%m.%d")
-    # 기본
     return dt.strftime("%Y-%m-%d")
 
 def build_block(entries, count, date_format):
-    """
-    원하는 출력: [[yyyy-mm-dd] 제목](링크)
-    링크가 없으면 [yyyy-mm-dd] 제목 (비링크)로 처리
-    """
     lines = []
     for ent in entries[:count]:
         title = getattr(ent, "title", "(제목 없음)") or "(제목 없음)"
         title = " ".join(title.splitlines()).strip()
-
         link = getattr(ent, "link", "") or getattr(ent, "id", "") or ""
         date_str = fmt_date(ent, date_format) or "----"
-
         if link:
-            # 줄 전체가 클릭되게 앵커로 감쌈
             line = f"[[{date_str}] {title}]({link})"
         else:
             line = f"[{date_str}] {title}"
-
         lines.append(line)
-
     if not lines:
         lines.append("[----] 최근 글을 찾지 못했습니다.")
     return "\n".join(lines)
 
 def replace_between_markers(text, new_block):
-    """
-    README 내 START~END 사이 블록을 new_block으로 교체
-    """
     pattern = re.compile(re.escape(START_MARKER) + r"[\s\S]*?" + re.escape(END_MARKER), re.M)
     if not pattern.search(text):
         print("README에 마커가 없습니다. START/END 주석을 확인하세요.")
+        print("찾는 START_MARKER:", START_MARKER)
+        print("찾는 END_MARKER  :", END_MARKER)
         sys.exit(1)
     replacement = START_MARKER + "\n" + new_block + "\n" + END_MARKER
     return pattern.sub(replacement, text)
 
+def main():
+    rss_url, count, date_format = parse_args()
+    print(f"[INFO] 피드 가져오는 중: {rss_url}")
+    feed = feedparser.parse(rss_url)
+
+    if feed.bozo:
+        print(f"[WARN] 피드 파싱 경고(bozo): {feed.bozo_exception}")
+
+    entries = feed.entries if hasattr(feed, "entries") else []
+    print(f"[INFO] 피드 항목 수: {len(entries)}")
+
+    new_block = build_block(entries, count, date_format)
+    print("[DEBUG] 생성된 블록(아래):")
+    print("-----8<-----")
+    print(new_block)
+    print("----->8-----")
+
+    readme_path = os.path.join(os.getcwd(), "README.md")
+    with open(readme_path, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    # 마커 존재 여부/위치 힌트
+    start_idx = content.find(START_MARKER)
+    end_idx = content.find(END_MARKER)
+    print(f"[DEBUG] README 내 START idx: {start_idx}, END idx: {end_idx}")
+
+    updated = replace_between_markers(content, new_block)
+
+    if updated != content:
+        with open(readme_path, "w", encoding="utf-8") as f:
+            f.write(updated)
+        print(f"[INFO] README 갱신 완료 ({min(len(entries), count)}개 항목).")
+    else:
+        print("[INFO] 변경 사항 없음.")
+
+if __name__ == "__main__":
+    main()
