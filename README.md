@@ -2,11 +2,11 @@
 
 ### ✍️ Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
+[[2025-10-09] 연휴 후 개발자의 성찰](https://yoonbitnara.github.io/til/2025/10/10/holiday-reflection-developer-goals/)  
 [[2025-10-01] 자료구조 활용법](https://yoonbitnara.github.io/algorithm/2025/10/02/data-structures-practical-usage/)  
 [[2025-10-01] HTTPS가 필수인 이유](https://yoonbitnara.github.io/internet/2025/10/02/https-essential-reasons/)  
 [[2025-09-30] 1년차와 10년차의 차이는 9년이 아니다](https://yoonbitnara.github.io/til/2025/10/01/one-year-vs-ten-years-experience/)  
 [[2025-09-29] 코드 커버리지와 품질 관리](https://yoonbitnara.github.io/code-quality/2025/09/30/code-coverage-quality-management/)  
-[[2025-09-29] 데이터베이스 인덱스, 이제 제대로 써보자](https://yoonbitnara.github.io/database/2025/09/30/database-indexing-strategy-performance-tuning/)  
 <!-- BLOG-POST-LIST:END -->
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:ff0000&height=200&section=header&text=PitbullTerrier%20Dev&fontSize=45&fontColor=ffffff&animation=twinkling)
