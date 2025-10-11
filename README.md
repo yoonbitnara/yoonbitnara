@@ -2,11 +2,11 @@
 
 ### ✍️ Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
+[[2025-10-10] Spring을 쓴다고 좋은 설계가 되는 건 아니다](https://yoonbitnara.github.io/spring/2025/10/11/spring-does-not-guarantee-good-design/)  
+[[2025-10-10] 회사가 나를 키워주길 기다리지 마라](https://yoonbitnara.github.io/til/2025/10/11/dont-wait-for-company-to-grow-you/)  
 [[2025-10-09] 자 or 가](https://yoonbitnara.github.io/mathematical-trading/2025/10/10/two-types-of-professions-investment-philosophy/)  
 [[2025-10-09] 연휴 후 개발자의 성찰](https://yoonbitnara.github.io/til/2025/10/10/holiday-reflection-developer-goals/)  
 [[2025-10-01] 자료구조 활용법](https://yoonbitnara.github.io/algorithm/2025/10/02/data-structures-practical-usage/)  
-[[2025-10-01] HTTPS가 필수인 이유](https://yoonbitnara.github.io/internet/2025/10/02/https-essential-reasons/)  
-[[2025-09-30] 1년차와 10년차의 차이는 9년이 아니다](https://yoonbitnara.github.io/til/2025/10/01/one-year-vs-ten-years-experience/)  
 <!-- BLOG-POST-LIST:END -->
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:ff0000&height=200&section=header&text=PitbullTerrier%20Dev&fontSize=45&fontColor=ffffff&animation=twinkling)
