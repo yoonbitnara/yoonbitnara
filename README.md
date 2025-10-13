@@ -2,8 +2,8 @@
 
 ### ✍️ Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
+[[2025-10-12] CI/CD 파이프라인 설계](https://yoonbitnara.github.io/devops/2025/10/13/cicd-pipeline-design-principles/)  
 [[2025-10-10] Spring을 쓴다고 좋은 설계가 되는 건 아니다](https://yoonbitnara.github.io/spring/2025/10/11/spring-does-not-guarantee-good-design/)  
-[[2025-10-10] 회사가 나를 키워주길 기다리지 마라](https://yoonbitnara.github.io/til/2025/10/11/dont-wait-for-company-to-grow-you/)  
 [[2025-10-09] 자 or 가](https://yoonbitnara.github.io/mathematical-trading/2025/10/10/two-types-of-professions-investment-philosophy/)  
 [[2025-10-09] 연휴 후 개발자의 성찰](https://yoonbitnara.github.io/til/2025/10/10/holiday-reflection-developer-goals/)  
 [[2025-10-01] 자료구조 활용법](https://yoonbitnara.github.io/algorithm/2025/10/02/data-structures-practical-usage/)  
