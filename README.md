@@ -2,11 +2,11 @@
 
 ### ✍️ Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
+[[2025-10-16] ESG 트렌드 분석 - 네이버 데이터랩과 구글 트렌드 활용](https://yoonbitnara.github.io/bigdata/2025/10/17/esg-trend-analysis-complete/)  
 [[2025-10-14] Docker Compose](https://yoonbitnara.github.io/devops/2025/10/15/docker-compose-guide/)  
 [[2025-10-13] SOLID 원칙에 대하여](https://yoonbitnara.github.io/code-quality/2025/10/14/solid-principles-practical-application/)  
 [[2025-10-12] 캐시 메모리 히트율 1%가 성능을 좌우한다](https://yoonbitnara.github.io/computerstructure/2025/10/13/cache-memory-performance/)  
 [[2025-10-12] CI/CD 파이프라인 설계](https://yoonbitnara.github.io/devops/2025/10/13/cicd-pipeline-design-principles/)  
-[[2025-10-12] WebSocket vs SSE vs Long Polling](https://yoonbitnara.github.io/internet/2025/10/13/realtime-communication-comparison/)  
 <!-- BLOG-POST-LIST:END -->
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:ff0000&height=200&section=header&text=PitbullTerrier%20Dev&fontSize=45&fontColor=ffffff&animation=twinkling)
