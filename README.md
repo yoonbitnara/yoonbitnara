@@ -2,11 +2,11 @@
 
 ### ✍️ Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
+[[2025-12-04] 바카라는 왜 도박쟁이들이 절대 이길 수 없는가](https://yoonbitnara.github.io/mathematical-trading/2025/12/05/baccarat-mathematical-impossibility/)  
 [[2025-10-22] 10년 된 300줄짜리 함수 뜯어보기](https://yoonbitnara.github.io/code-quality/2025/10/23/legacy-code-refactoring-hell/)  
 [[2025-10-22] JavaScript 비동기 처리에 대하여](https://yoonbitnara.github.io/js/2025/10/23/js-async-programming/)  
 [[2025-10-21] 그래프 이론 - 지하철 노선도부터 알고리즘까지](https://yoonbitnara.github.io/discretemathematics/2025/10/22/graph-theory-practical/)  
 [[2025-10-21] JavaScript 메모리 관리와 가비지 컬렉션](https://yoonbitnara.github.io/js/2025/10/22/js-memory-management/)  
-[[2025-10-16] ESG 트렌드 분석 - 네이버 데이터랩과 구글 트렌드 활용](https://yoonbitnara.github.io/bigdata/2025/10/17/esg-trend-analysis-complete/)  
 <!-- BLOG-POST-LIST:END -->
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:ff0000&height=200&section=header&text=PitbullTerrier%20Dev&fontSize=45&fontColor=ffffff&animation=twinkling)
